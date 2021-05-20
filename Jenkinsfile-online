@@ -11,8 +11,8 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIAL_ID = 'inner-harbor'
-        GITHUB_CREDENTIAL_ID = 'xubao-github-token'
-        KUBECONFIG_CREDENTIAL_ID = 'kubernetes-token'
+        GITHUB_CREDENTIAL_ID = 'github-id'
+        KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
         REGISTRY = 'core.harbor.domain:30353'
         DOCKERHUB_NAMESPACE = 'admin'
         GITHUB_ACCOUNT = 'vvxubaovv'
